@@ -1,1 +1,12 @@
 # CS360
+For this project, I developed a weight tracking mobile app designed to help users monitor their fitness progress by recording and displaying their weight changes over time. The goal of the app was to meet the user’s need for a simple, user friendly way to log weight, view it in a structured format, and receive SMS notifications related to their tracking. This app was built with a focus on health and simple usability, providing users with an simple but useful tool to stay consistent with their fitness goals.
+
+To support these needs, the app included three primary screens: a login screen for secure access, a weight display grid for viewing entries, and an SMS notification permission screen. The UI design focused on clarity and simplicity, ensuring users could navigate easily without confusion. Features like labeled fields, clean layouts, and consistent navigation helped maintain a user centered approach. These designs were successful because they minimized distractions and provided simple access to the functions that mattered most to users.
+
+When coding the app, I approached development with modularity and clarity in mind. I broke down the work into smaller sections such as handling authentication, database setup, and SMS permissions and tested each piece before moving on. This incremental strategy helped me debug quickly and avoid any larger issues that could have arose later. These techniques are applicable to any future projects because they encourage efficiency and scalability in development.
+
+To ensure functionality, I used emulator testing to check how the app responded to user input, permissions, and database operations. This process was important because it revealed small issues early, such as layout misalignments and permission handling errors, which could have negatively impacted the user experience if left unresolved.
+
+Throughout the entire process, from planning to finalization, I had to innovate when balancing functionality with permissions. For example, properly implementing SMS notification permissions required careful attention to Androids permission model, making sure the app only asked for what was necessary. This taught me the importance of aligning user trust with technical requirements.
+
+One component I feel most successful in was the integration of the SMS permission screen and its connection to the broader application flow. It demonstrated my ability to combine user centered design with proper Android coding practices, showing both my technical and design skills in a single feature.
